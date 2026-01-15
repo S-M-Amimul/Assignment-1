@@ -12,15 +12,26 @@
     padding: 12.5px 16px;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.btn , .btn-one:hover {
+    background-color: #279E59;
 }
 .btn-one{
     background-color: transparent;
     color: white;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 600;
     padding: 12.5px 16px;
     border-radius: 4px;
     border: 1px solid white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .button {
     display: flex;
@@ -217,4 +228,37 @@ nav{
     font-size: 16px;
     color: #627382;
     margin-bottom: 24px;
+}
+/* Footer secton  */
+.footer-container {
+    background-color: #001931;
+    height: 348px;
+    padding: 120px 120px 30px;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+.caption {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.icons {
+    display: flex;
+    gap: 16px;
+}
+.footer-line {
+   display: flex;
+   flex-direction: column;
+   gap: 80px; 
+}
+.footer-bottom {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
 }
