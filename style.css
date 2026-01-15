@@ -17,7 +17,7 @@
     align-items: center;
     gap: 5px;
 }
-.btn , .btn-one:hover {
+.btn:hover {
     background-color: #279E59;
 }
 .btn-one{
@@ -32,6 +32,9 @@
     display: flex;
     align-items: center;
     gap: 5px;
+}
+.btn-one:hover {
+    background-color: #279E59;
 }
 .button {
     display: flex;
