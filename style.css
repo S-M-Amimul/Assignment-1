@@ -120,12 +120,12 @@ nav{
 #problems .problem-container .problem-box {
     display: flex;
     gap: 16px;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
 }
 .problem-box .problem-card {
     max-width: 322px;
-    
+
     padding: 24px;
     border-radius: 8px;
     text-align: center;
@@ -141,4 +141,80 @@ nav{
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 16px;
+}
+.problem-card p {
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+}
+/* Brain Section  */
+#brain {
+    padding: 120px;
+}
+.brain-content {
+    display: flex;
+    gap: 60px;
+    
+}
+.solution {
+    padding: 102px 0 102px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+} 
+.brain-solution  {
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brain-heading {
+    color: #001931 ;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.brain-sol {
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.brain-tips  {
+    list-style-image: url("assets/CheckCircle.png");
+    
+}
+.brain-tips li {
+    font-weight: 500;
+    align-items: center;
+    margin-bottom: 16px;
+    
+    
+    
+}
+/* Early access  section  */
+#access {
+    margin: 2px 120px 120px 120px;
+    padding: 40px 0 ;
+    background-color: #F7F6F2;
+}
+.early-access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.early-access h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:16px;
+    padding-top: 50px;
+}
+.instruction {
+    line-height: 24px;
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
 }
